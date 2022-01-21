@@ -24,6 +24,10 @@ const OnboardingStart = ({navigation}: Props) => {
           })
         }
       />
+      <Button
+        title="Blocking Demo"
+        onPress={() => navigation.navigate(OnboardingScreens.BLOCKING_DEMO)}
+      />
     </View>
   );
 };
